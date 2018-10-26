@@ -4859,7 +4859,7 @@ var Dimensions = function () {
 
       gl.gridHeight = gl.gridHeight - w.config.grid.padding.top - w.config.grid.padding.bottom;
 
-      gl.gridWidth = gl.gridWidth - w.config.grid.padding.left - w.config.grid.padding.right;
+      gl.gridWidth = gl.gridWidth - w.config.grid.padding.left - w.config.grid.padding.right - 15;
 
       gl.translateX = gl.translateX + w.config.grid.padding.left;
       gl.translateY = gl.translateY + w.config.grid.padding.top;
